@@ -7,6 +7,20 @@
   background-repeat: no-repeat;
 }
 
+.hero h2 {
+  padding:  88px 60px;
+  margin: 0px;
+  color: var(--Grafite, #222);
+  text-align: center;
+
+  /* Body4 */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 48px */
+}
+
 @media screen and (min-width: 768px) {
   .hero-image {
     height: 620px;
