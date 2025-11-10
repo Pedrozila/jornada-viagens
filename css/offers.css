@@ -4,6 +4,7 @@
   gap: 24px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 88px;
 }
 
 .card {
@@ -48,14 +49,58 @@
   background-color: transparent;
 }
 
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories-btn {
+  display: flex;
+  height: 220px;
+  width: 312px;
+  padding: 24px 16px;
+  margin: 0 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 52px;
+  border-radius: 8px;
+  background: var(--background-secondary-color);
+}
+
 @media screen and (min-width: 768px) {
   
+.categories-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories-btn {
+  width: 352px;
+}
+
+
   .offers-cards {
     flex-direction: row;
     gap: 32px;
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  
   
   .card {
     width: 354px;
@@ -72,6 +117,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+  .categories-btn {
+    width: 382px;
+  }
+
   .card {
     width: 468px;
     height: 308px;
@@ -79,6 +129,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+
+  .categories-btn {
+    width: 422px;
+  }
+
   .card {
     width: 588px;
     height: 308px;
